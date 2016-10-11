@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heros</title>
+</head>
+<body>
+
+    <h1>One Club Players</h1>
+
+    <ol>
+
+        {% for player in players %}
+
+        <li>{{  player.Name }}</li>
+        <p>{{  player.Club }}</p>
+        <p>{{  player.Apps }}</p>
+
+       {%  endfor %}
+    </ol>
+</body>
+</html>
